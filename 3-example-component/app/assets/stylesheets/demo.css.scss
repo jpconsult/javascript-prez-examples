@@ -1,0 +1,15 @@
+// Place all the styles related to the demo controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+div.jpc-autocomplete-item {
+  padding: 4px;
+  margin: 2px;
+  border: 1px solid gray;
+  width: 100px;
+  cursor: pointer;
+  
+}
+
+div.jpc-autocomplete-item:hover {
+  background-color: lightyellow;
+}

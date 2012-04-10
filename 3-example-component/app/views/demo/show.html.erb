@@ -1,0 +1,7 @@
+<h1>Autocomplete time!</h1>
+
+<%= form_tag(get_data_path, {:class => "form"}) do %>
+    <%= label_tag :city, "Město" %>
+    <%= text_field_tag :city, nil, {"data-url" => get_data_path} %>
+<% end -%>
+
